@@ -14,7 +14,12 @@
 body {
     font-family: Arial, sans-serif;
 }
-
+.search-container input[type="text"] {
+    width: 200px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 1px;
+}
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -478,11 +483,19 @@ body {
     width: 1202px;
     height: 576px;
     margin: 0 auto;
-    /* border: 1px solid red; */
+    border: 1px solid red;
 }
 .text-7{
     width: 630px;
     height: 32px;
     /* border: 1px solid red; */
-    
+}
+.text-9{ /* 字间距没调*/
+    width: 639.9px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.text-10{ /* 字间距没调*/
+    width: 639.9px;
+    line-height: 27px;
 }
