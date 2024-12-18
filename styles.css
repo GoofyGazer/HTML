@@ -466,7 +466,9 @@ body {
     background-color: #fff;
     height: 750px;
     width: 1579px;
-    
+}
+#box-6{
+    position: relative;
 }
 .text-8{
     margin-bottom: 60px;
@@ -475,27 +477,78 @@ body {
     margin: 0 auto;
     margin-bottom: 50px;
 }
-.image11{
-    width: 640px;
-    height: 360px;
-}
-.consultation{
+.Information{
     width: 1202px;
     height: 576px;
     margin: 0 auto;
-    border: 1px solid red;
+    /* border: 1px solid red; */
+}
+.more-4 {
+    
+    color: #0c5ca8;
+    float: right;
+    width: 45px;
+    height: 25px;
+    float: right;
+    position:absolute;
+    top: 70px;
+    bottom: 0px;
+    right: 0px;
+    left: 1290px;
+}
+.more-4 a{
+    text-decoration: none;
+    color: #0c5ca8;
+    font-size: 19px;
+    transition: color 0.3s ease;
+    padding-bottom: 10px;
+    position: relative;
+}
+.part-1{
+    /* border: 1px solid red; */
+    float: left;
+}
+.image11{
+    width: 640px;
+    height: 360px;
 }
 .text-7{
     width: 630px;
     height: 32px;
     /* border: 1px solid red; */
 }
-.text-9{ /* 字间距没调*/
+.text-9{ 
     width: 639.9px;
     margin-top: 20px;
     margin-bottom: 20px;
+    letter-spacing: 2px;
 }
-.text-10{ /* 字间距没调*/
+.text-10{ 
     width: 639.9px;
     line-height: 27px;
+    margin-top: 30px;
+}
+
+.part-2{
+    margin: 0;
+    padding: 0;
+    width: 500px;
+    height: 490px; 
+    list-style-type: none;
+    /* border: 1px solid red; */
+    float: right;
+}
+.part-2 li{
+    width: 600px;
+    height: 140px;
+    margin-bottom: 50px;
+    float: right;
+}
+.part-2 .txt-box{
+    float: right;
+    width: 400px;
+    height: 140px;
+}
+.txt-box h3, .txt-box p{
+    margin: 0;
 }
